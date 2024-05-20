@@ -10,7 +10,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Soft/junit-4.13.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../Soft/junit-4.13.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,23 +19,23 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../Soft/selenium-java-4.21.0" />
+          <root url="jar://$MODULE_DIR$/../../Soft/hamcrest-2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../Soft/selenium-java-4.21.0" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/../../../Soft/selenium-java-4.21.0" />
+          <root url="file://$MODULE_DIR$/../../Soft/selenium-java-4.21.0" />
         </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../../Soft/selenium-java-4.21.0" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../../Soft/selenium-java-4.21.0" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Soft/hamcrest-2.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../Soft/selenium-java-4.21.0" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../Soft/selenium-java-4.21.0" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>
