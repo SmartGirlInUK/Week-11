@@ -50,9 +50,4 @@ public class TopMenuTest extends BaseTest {
     public void tearDown() {
         closeBrowser();
     }
-
-    public void selectMenu(String menu) {
-        WebElement element = driver.findElement(By.xpath("//ul[@class='nav navbar-nav']/li/div/a[text()='" + menu + "']"));
-        element.click();
-    }
 }

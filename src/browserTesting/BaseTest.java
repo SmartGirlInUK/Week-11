@@ -1,6 +1,8 @@
 package browserTesting;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
@@ -16,6 +18,10 @@ public class BaseTest {
 
     public void closeBrowser() {
         driver.quit();
+    }
+    public void selectMenu(String menu) {
+        WebElement element = driver.findElement(By.xpath("//ul[@class='nav navbar-nav']/li/div/a[text()='" + menu + "']"));
+        element.click();
     }
 
 }
