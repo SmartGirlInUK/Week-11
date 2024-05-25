@@ -51,7 +51,7 @@ public class DesktopsTest extends BaseTest {
         driver.findElement(By.id("input-quantity")).clear();
         driver.findElement(By.id("input-quantity")).sendKeys("1");
         driver.findElement(By.id("button-cart")).click();
-        Thread.sleep(200);
+        Thread.sleep(500);
         String actualMessage = driver.findElement(By.cssSelector("div.alert.alert-success.alert-dismissible")).getText();
         Assert.assertEquals("", "Success: You have added HP LP3065 to your shopping cart!\n×", actualMessage);
         driver.findElement(By.xpath("//div[@id='product-product']/div[1]/a[2]")).click();
