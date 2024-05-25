@@ -36,7 +36,7 @@ public class MyAccountsTest extends BaseTest {
         selectMyAccountOptions("Register");
         driver.findElement(By.id("input-firstname")).sendKeys("Admin");
         driver.findElement(By.name("lastname")).sendKeys("abcd");
-        driver.findElement(By.id("input-email")).sendKeys("admin6511@gmail.com");
+        driver.findElement(By.id("input-email")).sendKeys("admin007@gmail.com");
         driver.findElement(By.id("input-telephone")).sendKeys("08564965846");
         driver.findElement(By.name("password")).sendKeys("Admin@abcd");
         driver.findElement(By.id("input-confirm")).sendKeys("Admin@abcd");
@@ -56,7 +56,7 @@ public class MyAccountsTest extends BaseTest {
 
     @After
     public void tearDown() {
-        //closeBrowser();
+        closeBrowser();
     }
 
     public void selectMyAccountOptions(String option) {
